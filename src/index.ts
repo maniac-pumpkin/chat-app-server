@@ -19,4 +19,4 @@ io.on("connection", (socket) => {
 const PORT = process.env["PORT"]
 const SERVER_URL = process.env["SERVER_URL"]
 
-server.listen(PORT, () => console.log(`Server running on http://${SERVER_URL}:${PORT}`))
+server.listen(PORT, () => console.log(`Server running on ${SERVER_URL}:${PORT}`))
